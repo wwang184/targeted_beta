@@ -1,5 +1,5 @@
 # targeted_beta
-Fetched data from Yahoo Finance by using python api, constructed portfolio with a targeted beta.
+Fetched data from Yahoo Finance by using python api, performed sql statement in python through sqlalchemy, constructed portfolio with the targeted beta.
 
 # Outline
 In this project, we fetched the stock data of the given 3k cusips, evaluated their betas using CAPM model, constructed a portfolio which has the targeted beta, and calculated the return of the portfolio in the next year.
@@ -13,7 +13,8 @@ Table 1
     table name: BarValues
     
         Ticker - char 6
-        Company Name - Longtext Date - date
+        Company Name - Longtext 
+        Date - date
         Open - decimal 18, 4 
         High - decimal 18, 4 
         Low - decimal 18, 4 
